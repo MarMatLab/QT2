@@ -17,6 +17,15 @@ public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
 
+private slots:
+    void on_pushButton_clicked();
+
+    void on_pushButton_2_clicked();
+
+    void on_spinBox_valueChanged(int arg1);
+
+    void on_doubleSpinBox_valueChanged(double arg1);
+
 private:
     Ui::MainWindow *ui;
 };
