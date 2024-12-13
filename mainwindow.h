@@ -26,6 +26,18 @@ private slots:
 
     void on_doubleSpinBox_valueChanged(double arg1);
 
+    void on_radioButton_clicked();
+
+    void on_radioButton_2_clicked();
+
+    void on_radioButton_3_clicked();
+
+    void on_radioButton_clicked(bool checked);
+
+    void on_calendarWidget_clicked(const QDate &date);
+
+    void on_dateEdit_dateChanged(const QDate &date);
+
 private:
     Ui::MainWindow *ui;
 };
